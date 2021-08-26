@@ -3,7 +3,7 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: #FFFCFA;
     display: grid;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto auto auto auto;
 }
 
 main {
@@ -11,12 +11,13 @@ main {
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #cdff9e;
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: bold;
 }
 
 header img {
@@ -24,13 +25,30 @@ header img {
     object-fit: contain;
 }
 
-h1 {
-    font-size: 1.5rem;
+.math {
+    text-align: center;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
+h2 {
+    color: purple;
+}
+
+h3 {
+    color: purple;
+}
+
+h4 {
+    color: purple;
+}
+
+ h5 {
+    color : purple;
+ }
+
 footer {
-    background-color: #FAF0EA;
+    background-color: #cdff9e;
     padding: 10px;
 }
 main {
@@ -40,6 +58,3 @@ main {
     grid-gap: 10px;
 }
 
-section {
-    display: contents;
-}
